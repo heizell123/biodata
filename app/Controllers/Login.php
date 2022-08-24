@@ -120,8 +120,7 @@ class Login extends BaseController
 
         $data_bio=[
             'email'=>$email,
-            'user_id'=>$id,
-            'role_id'=>2
+            'user_id'=>$id
         ];
         $this->Global_model->insertTable('biodata',$data_bio);
     }
