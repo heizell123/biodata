@@ -1,0 +1,14 @@
+.totop {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    display: none;
+    background: #c3a22e;
+    color: #fff;
+    border-radius: 25px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+}
